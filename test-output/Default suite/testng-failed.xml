@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw_15.ContinuationOfSeleniumMethods">
+      <class name="hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit">
         <methods>
-          <include name="clearTestFullScreenTestAndGetSizeTest"/>
-          <include name="searchBarTestNavigationTest"/>
-          <include name="setSizeTest"/>
-          <include name="setup"/>
-          <include name="tearup"/>
+          <include name="bestSellersButtonTest"/>
+          <include name="tearUp"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- hw_15.ContinuationOfSeleniumMethods -->
+      </class> <!-- hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

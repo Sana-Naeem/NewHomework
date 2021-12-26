@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88443" started-at="2021-12-26T15:22:20 EST" finished-at="2021-12-26T15:23:48 EST">
+  <suite name="Default suite" duration-ms="32317" started-at="2021-12-26T17:16:18 EST" finished-at="2021-12-26T17:16:50 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88443" started-at="2021-12-26T15:22:20 EST" finished-at="2021-12-26T15:23:48 EST">
-      <class name="hw_15.ContinuationOfSeleniumMethods">
-        <test-method status="PASS" signature="setup()[pri:0, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="setup" is-config="true" duration-ms="13316" started-at="2021-12-26T15:22:20 EST" finished-at="2021-12-26T15:22:33 EST">
+    <test name="Default test" duration-ms="32317" started-at="2021-12-26T17:16:18 EST" finished-at="2021-12-26T17:16:50 EST">
+      <class name="hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit@28ac3dc3]" name="setUp" is-config="true" duration-ms="21656" started-at="2021-12-26T17:16:18 EST" finished-at="2021-12-26T17:16:40 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchBarTestNavigationTest()[pri:1, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="searchBarTestNavigationTest" duration-ms="39079" started-at="2021-12-26T15:22:33 EST" finished-at="2021-12-26T15:23:12 EST">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bestSellersButtonTest()[pri:1, instance:hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit@28ac3dc3]" name="bestSellersButtonTest" duration-ms="10224" started-at="2021-12-26T17:16:40 EST" finished-at="2021-12-26T17:16:50 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchBarTestNavigationTest -->
-        <test-method status="PASS" signature="clearTestFullScreenTestAndGetSizeTest()[pri:2, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="clearTestFullScreenTestAndGetSizeTest" duration-ms="27301" started-at="2021-12-26T15:23:12 EST" finished-at="2021-12-26T15:23:40 EST">
+        </test-method> <!-- bestSellersButtonTest -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit@28ac3dc3]" name="tearUp" is-config="true" duration-ms="378" started-at="2021-12-26T17:16:50 EST" finished-at="2021-12-26T17:16:50 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clearTestFullScreenTestAndGetSizeTest -->
-        <test-method status="PASS" signature="setSizeTest()[pri:3, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="setSizeTest" duration-ms="7902" started-at="2021-12-26T15:23:40 EST" finished-at="2021-12-26T15:23:47 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setSizeTest -->
-        <test-method status="PASS" signature="tearup()[pri:0, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="tearup" is-config="true" duration-ms="756" started-at="2021-12-26T15:23:47 EST" finished-at="2021-12-26T15:23:48 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearup -->
-      </class> <!-- hw_15.ContinuationOfSeleniumMethods -->
+        </test-method> <!-- tearUp -->
+      </class> <!-- hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
