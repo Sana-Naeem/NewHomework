@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88443" started-at="2021-12-26T15:22:20 EST" finished-at="2021-12-26T15:23:48 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88443" started-at="2021-12-26T15:22:20 EST" finished-at="2021-12-26T15:23:48 EST">
+      <class name="hw_15.ContinuationOfSeleniumMethods">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="setup" is-config="true" duration-ms="13316" started-at="2021-12-26T15:22:20 EST" finished-at="2021-12-26T15:22:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchBarTestNavigationTest()[pri:1, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="searchBarTestNavigationTest" duration-ms="39079" started-at="2021-12-26T15:22:33 EST" finished-at="2021-12-26T15:23:12 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTestNavigationTest -->
+        <test-method status="PASS" signature="clearTestFullScreenTestAndGetSizeTest()[pri:2, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="clearTestFullScreenTestAndGetSizeTest" duration-ms="27301" started-at="2021-12-26T15:23:12 EST" finished-at="2021-12-26T15:23:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTestFullScreenTestAndGetSizeTest -->
+        <test-method status="PASS" signature="setSizeTest()[pri:3, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="setSizeTest" duration-ms="7902" started-at="2021-12-26T15:23:40 EST" finished-at="2021-12-26T15:23:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSizeTest -->
+        <test-method status="PASS" signature="tearup()[pri:0, instance:hw_15.ContinuationOfSeleniumMethods@28ac3dc3]" name="tearup" is-config="true" duration-ms="756" started-at="2021-12-26T15:23:47 EST" finished-at="2021-12-26T15:23:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- hw_15.ContinuationOfSeleniumMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
