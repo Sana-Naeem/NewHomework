@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32317" started-at="2021-12-26T17:16:18 EST" finished-at="2021-12-26T17:16:50 EST">
+  <suite name="Default suite" duration-ms="47777" started-at="2022-01-05T16:23:10 EST" finished-at="2022-01-05T16:23:58 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32317" started-at="2021-12-26T17:16:18 EST" finished-at="2021-12-26T17:16:50 EST">
-      <class name="hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit@28ac3dc3]" name="setUp" is-config="true" duration-ms="21656" started-at="2021-12-26T17:16:18 EST" finished-at="2021-12-26T17:16:40 EST">
+    <test name="Default test" duration-ms="47777" started-at="2022-01-05T16:23:10 EST" finished-at="2022-01-05T16:23:58 EST">
+      <class name="hw_16.Use_of_gecko_driver">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hw_16.Use_of_gecko_driver@28ac3dc3]" name="setup" is-config="true" duration-ms="6708" started-at="2022-01-05T16:23:10 EST" finished-at="2022-01-05T16:23:16 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bestSellersButtonTest()[pri:1, instance:hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit@28ac3dc3]" name="bestSellersButtonTest" duration-ms="10224" started-at="2021-12-26T17:16:40 EST" finished-at="2021-12-26T17:16:50 EST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="maximize()[pri:1, instance:hw_16.Use_of_gecko_driver@28ac3dc3]" name="maximize" duration-ms="1825" started-at="2022-01-05T16:23:17 EST" finished-at="2022-01-05T16:23:18 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bestSellersButtonTest -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit@28ac3dc3]" name="tearUp" is-config="true" duration-ms="378" started-at="2021-12-26T17:16:50 EST" finished-at="2021-12-26T17:16:50 EST">
+        </test-method> <!-- maximize -->
+        <test-method status="PASS" signature="byIndexTest()[pri:2, instance:hw_16.Use_of_gecko_driver@28ac3dc3]" name="byIndexTest" duration-ms="5556" started-at="2022-01-05T16:23:18 EST" finished-at="2022-01-05T16:23:24 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearUp -->
-      </class> <!-- hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit -->
+        </test-method> <!-- byIndexTest -->
+        <test-method status="PASS" signature="byValue()[pri:3, instance:hw_16.Use_of_gecko_driver@28ac3dc3]" name="byValue" duration-ms="3428" started-at="2022-01-05T16:23:24 EST" finished-at="2022-01-05T16:23:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byValue -->
+        <test-method status="PASS" signature="byVisibleText()[pri:4, instance:hw_16.Use_of_gecko_driver@28ac3dc3]" name="byVisibleText" duration-ms="3286" started-at="2022-01-05T16:23:27 EST" finished-at="2022-01-05T16:23:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byVisibleText -->
+        <test-method status="PASS" signature="moveToElement()[pri:5, instance:hw_16.Use_of_gecko_driver@28ac3dc3]" name="moveToElement" duration-ms="9726" started-at="2022-01-05T16:23:31 EST" finished-at="2022-01-05T16:23:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToElement -->
+        <test-method status="PASS" signature="acceptAlertMethod()[pri:6, instance:hw_16.Use_of_gecko_driver@28ac3dc3]" name="acceptAlertMethod" duration-ms="11288" started-at="2022-01-05T16:23:40 EST" finished-at="2022-01-05T16:23:52 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptAlertMethod -->
+        <test-method status="PASS" signature="dismissAlertMethod()[pri:7, instance:hw_16.Use_of_gecko_driver@28ac3dc3]" name="dismissAlertMethod" duration-ms="4302" started-at="2022-01-05T16:23:52 EST" finished-at="2022-01-05T16:23:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissAlertMethod -->
+        <test-method status="PASS" signature="tearup()[pri:0, instance:hw_16.Use_of_gecko_driver@28ac3dc3]" name="tearup" is-config="true" duration-ms="1563" started-at="2022-01-05T16:23:56 EST" finished-at="2022-01-05T16:23:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- hw_16.Use_of_gecko_driver -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

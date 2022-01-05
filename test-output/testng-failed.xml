@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit">
+      <class name="hw_16.Use_of_gecko_driver">
         <methods>
-          <include name="bestSellersButtonTest"/>
-          <include name="tearUp"/>
-          <include name="setUp"/>
+          <include name="moveToElement"/>
+          <include name="setup"/>
+          <include name="tearup"/>
         </methods>
-      </class> <!-- hw_13.Methods_maximize_fullscreen_deleteAllCookies_get_sleep_click_quit -->
+      </class> <!-- hw_16.Use_of_gecko_driver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
